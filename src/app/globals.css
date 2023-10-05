@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+footer:not(:first-child) {
+    border-top:5px solid rgba(255,255,255,0.5);
+}
